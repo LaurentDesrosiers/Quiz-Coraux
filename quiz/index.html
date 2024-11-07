@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sur les coraux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-container">
+        <h1>Bienvenue au Quiz sur les coraux</h1>
+        <label for="language-select">Choisissez votre langue :</label>
+        <select id="language-select">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+        </select>
+        <button id="start">Commencer le quiz</button>
+    </div>
+
+    <div id="quiz-container" style="display: none;">
+        <h1 id="quiz-title">Quiz sur les coraux</h1>
+        <div id="quiz"></div>
+        <button id="submit">Valider</button>
+        <div id="result"></div>
+        <button id="restart" style="display: none;">Recommencer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
